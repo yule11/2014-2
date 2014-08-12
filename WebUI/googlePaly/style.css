@@ -1,0 +1,404 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* setting */
+
+header{
+    overflow: auto;
+}
+
+header > div{
+    width : 1265px;
+    height: 60px;
+    background-color: rgba(245, 245, 245, 0.952941);
+    
+}
+
+#header1{
+    width : 244px;
+    height : 60px;
+    float:left;
+}
+
+#header1 img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width : 183px;
+    height: 39px;
+}
+
+#header1 > div, #header2 > div, #header3 > div{
+    position : relative;
+    top : 0px;
+    left: 0px;
+}
+
+
+#header2{
+    width : 650px;
+    height : 60px;
+    float: left;
+}
+
+#search{
+    position : absolute;
+    top : 13px;
+    left : 15px;
+    overflow: auto;
+}
+
+#search > div:nth-of-type(1){
+    width : 500px;
+    height: 30px;
+background-color: #FFFFFF;
+    float: left;
+}
+
+#search > div:nth-of-type(1) > p {
+    font-size: 18px;
+    color : rgba(245, 245, 245, 0.952941);
+}
+
+#search > div:nth-of-type(2){
+    width : 60px;
+    height: 30px;
+    background-color: rgb(26, 161, 225);
+    float: left;
+}
+
+#header3{
+    width : 350px;
+    height : 50px;
+    float : right;
+}
+
+#header3 ul {
+float: right;
+margin-right: 20px;
+}
+
+#header3 li {
+    height: 30px;
+    width : 50px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+
+#header3 li:nth-of-type(1){
+    font-size: 14px;
+}
+
+#header3 li:nth-of-type(2){
+    background-image: url('http://ssl.gstatic.com/gb/images/v1_2e543709.png');
+    background-position: -51px -452px;
+    background-repeat: no-repeat;
+}
+
+#header3 li:nth-of-type(3){
+    background-image: url('http://ssl.gstatic.com/gb/images/v1_2e543709.png');
+    background-position: 0 -69px;
+    background-repeat: no-repeat;
+}
+
+#header3 li:nth-of-type(4) > div {
+    background-color: #737373;
+    width : 50px;
+    height: 25px;
+}
+
+
+#NavSectionWrap{
+    position : relative;
+    top : 0px; 
+    left: 0px;
+    height: 1100px;
+}
+
+#barNav{
+    clear :both; 
+    overflow: auto;
+    width : 1265px;
+    height: 48px;
+    position: absolute;
+    top , left: 0px; 
+    z-index: 2;
+}
+
+#barNav0{
+    width : 200px;
+    height: 48px;
+    background-color: rgb(26, 161, 225);
+    float : left;
+    z-index: 5;
+}
+
+#barNav0 > img{
+margin-top : 14px;
+margin-left: 30px;}
+
+#barNav0 > p{
+    color : #F8F8FF;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    float: right;
+    margin-top : 16px;
+    margin-right: 97px;
+}
+
+#barNav1{
+    float : left;
+}
+
+#barNav2{
+    float : left;
+}
+
+#barNav1 >div , #barNav2 > div {
+    display: inline-block;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 20px;
+}
+
+#barNav3{
+    float : right;
+    margin-right: 50px;
+}
+
+#barNav3 > ul > li{
+    display: inline-block;
+    height: 30px;
+    border : 1px solid rgba(245, 245, 245, 0.952941) ;
+    position : relative;
+    top : 0px;
+    left : 0px;
+    margin-top : 8px;
+    margin-right: 10px;
+}
+
+
+#barNav3 > ul > li:nth-of-type(1){
+width : 30px;
+}
+
+
+#barNav3 > ul > li:nth-of-type(1) > img {
+position : absolute;
+top : 3px;
+left : 5px;
+}
+
+#barNav3 > ul > li:nth-of-type(2){
+width : 55px;
+}
+
+
+#barNav3 > ul > li:nth-of-type(2) > img {
+position : absolute;
+top : 5px;
+left : 18px;
+}
+
+#asideNav{
+    width : 200px;
+    height: 240px;
+    clear: both;
+    overflow: auto;
+    top , left: 0px;
+    z-index: 3;
+    float : left;
+}
+
+#asideNav1{
+float : left;
+    width : 24px;
+    height: 240px;
+    background-color: #F8F8FF;
+    z-index: 4;
+}
+
+#asideNav2{
+    background-color: rgba(245, 245, 245, 0.952941);
+    float : left;
+    width : 176px;
+    height: 240px;
+
+}
+
+#asideNav2 > ul > li{
+    z-index: 4;
+}
+
+section{
+    width : 1265px;
+    height: 1058px;
+    clear: both;
+    overflow: auto;
+    position: absolute;
+    top : 48px;
+    left : 0px;
+    background-color: #E6E6E6;
+    z-index: -1;
+}
+
+.collectionWrap{
+    width : 1265px;
+    height: 371px;
+    position : relative;
+    top : 0px;
+    left: 0px;
+}
+
+.collection{
+    width : 1256px;
+    height: 323px;
+position : relative;
+top : 0px;
+left : 0px;
+    overflow: auto;
+    
+    margin: 30px 0px;
+    
+}
+
+.collectionHeader{
+    position : absolute;
+    left : 250px;
+    top: 10px;
+    
+    width : 952px;
+    height: 75px;
+
+    overflow: auto;
+}
+
+.collectionHeader > h1 {
+    font: inherit;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.collectionHeader > h2{
+color: #555;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.collectionHeader > div{
+position: absolute;
+    right : 5px;
+    top : 15px;
+    width : 68px;
+    height: 30px;
+    background-color: rgb(26, 161, 225);
+    color : #F8F8FF;
+    border : 1px solid rgba(245, 245, 245, 0.952941);
+}
+
+.collectionHeader > div > div {
+    line-height: 2em;
+    
+    position : absolute;
+    left : 9px;
+}
+
+.collectionContents{
+    position : absolute;
+    left : 250px;
+    top: 70px;
+}
+
+.card{
+    width : 126px;
+    height: 239px;
+    float: left;
+    background-color: #FFFFFF;
+    margin : 0px 5px;
+    overflow: hidden;
+    font-size: 12px;
+line-height: 17px;
+    
+}
+
+.cardInfo > p:nth-of-type(1){
+    color : gray;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
+.cardInfo > p:nth-of-type(2){
+    color : rgb(26, 161, 225);
+    font-size: 10px;
+    line-height: 10px;
+    float: right;
+}
+
+footer{
+    height: 200px;
+    position : relative;
+    top : 0px;
+    left : 0px;
+    background-color: #FFFFFF;
+    clear: both;
+    font-size: 12px;
+    line-height: 1em;
+    overflow: auto;
+}
+
+footer > p {
+    position : relative;
+    left :240px;
+    margin-top: 20px;
+}
